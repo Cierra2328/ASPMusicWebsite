@@ -1,0 +1,230 @@
+﻿#logo {
+    float: left !important;
+    width: 100% !important;
+}
+
+.nav_bar {
+    float: left;
+    background-color: rgb(47,191,171);
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+    .nav_bar img {
+        float: left !important;
+        width: 100% !important;
+    }
+
+.drop-down {
+    border: 1px solid #cdcdcd;
+    background-color: #C4C4C4;
+    font-size: 16px;
+    width: 20em;
+    align-items: left;
+    height: 2em;
+    
+}
+
+.textbox {
+    border: 1px solid #cdcdcd;
+    background-color: #C4C4C4;
+    font-size: 16px;
+    width: 20em;
+    height: 2em;
+    
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-right: 2em;
+}
+
+    nav a:hover {
+        color: rgb(224,219,212);
+    }
+
+head {
+    background-color: navy;
+}
+
+html {
+    background: gray;
+   
+}
+
+h1 {
+    color: black;
+}
+
+.top {
+    background-color: rgb(47,191,171);
+}
+
+.space {
+    min-height: 1em;
+    min-width: 100%;
+    background-color: gray;
+    color: gray !important;
+}
+
+    .space p {
+        min-height: 1em;
+        color: transparent;
+    }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #DEDEDE;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+    .body h1 {
+        display: flex;
+        justify-content: Center;
+    }
+
+    .body p {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+.table {
+    border-top: 2px solid #F2F2F2;
+    margin-left: 102px;
+    width:95%;
+    
+}
+
+.tabs{
+    margin-left:1em;
+    margin-right:1em;
+}
+
+.table_header {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(47,191,171);
+    min-height: 2.5em;
+    min-width: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    text-align: left;
+    max-width: 5em;
+    height: 2em;
+    width: 2em;
+    border-bottom: 2px solid #F2F2F2;
+    border-left: 2px solid #F2F2F2;
+}
+
+    
+
+th {
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+#details {
+    margin-right: 15em;
+    margin-left: 15em;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+.details-label {
+    margin-bottom: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    border-bottom: 2px solid black;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.details {
+    border-left: none;
+}
+
+.body-details {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #DEDEDE;
+    margin-right: 15em;
+    margin-left: 15em;
+}
+
+.icons, .icons a {
+    margin-right: .1em;
+    margin-left: .1em;
+    color: black;
+}
+
+
+
+.add-button {
+    width: auto;
+    margin-right: 1em;
+    height: 2em;
+    margin-left:3em;
+}
+
+.space-header {
+    margin-right: 3em;
+}
+
+.body-add {
+    
+    background-color: #DEDEDE;
+    margin-right: 15em;
+    margin-left:1em;
+    width:95%;
+    
+}
+
+.details-header {
+    border-bottom: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.view-song-button {
+    background-color: transparent;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.button {
+    justify-content: center;
+    width: 5em;
+    display: flex;
+    background-color: rgb(47,191,171);
+}
+
+.add {
+    display: flex;
+    justify-content: space-around;
+}
+
+.view-song-button:hover{
+    font-weight:bold;
+}
